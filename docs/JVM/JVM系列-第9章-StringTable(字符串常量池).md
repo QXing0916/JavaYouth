@@ -1035,7 +1035,6 @@ public class StringIntern1 {
 ```java
 public class StringExer1 {
     public static void main(String[] args) {
-        String x = "ab";
         String s = new String("a") + new String("b");//new String("ab")
         //在上一行代码执行完以后，字符串常量池中并没有"ab"
 		/*
